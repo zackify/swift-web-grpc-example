@@ -1,6 +1,6 @@
 # protoc
 
-- brew install grpc-swift
+Generating the swift code requires the exact grpc-swift version in the Package.swift to be cloned on your computer. Building the plugins from source, then the command below will work. Only needed if you change the protobuf.
 
 ```
 protoc Sources/Model/helloworld.proto \
